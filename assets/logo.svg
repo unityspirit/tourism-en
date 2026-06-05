@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A94B"/>
+      <stop offset="100%" stop-color="#b8912f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#gt)" stroke-width="2"/>
+  <!-- Globe -->
+  <circle cx="100" cy="85" r="30" fill="none" stroke="url(#gt)" stroke-width="2.5"/>
+  <!-- Globe meridians -->
+  <ellipse cx="100" cy="85" rx="15" ry="30" fill="none" stroke="url(#gt)" stroke-width="1.5"/>
+  <line x1="70" y1="85" x2="130" y2="85" stroke="url(#gt)" stroke-width="1.5"/>
+  <path d="M74,72 Q100,68 126,72" fill="none" stroke="url(#gt)" stroke-width="1"/>
+  <path d="M74,98 Q100,102 126,98" fill="none" stroke="url(#gt)" stroke-width="1"/>
+  <!-- Airplane -->
+  <path d="M130,55 L145,50 L140,60 L130,55 L125,70" fill="url(#gt)" opacity="0.8"/>
+  <!-- Location pin -->
+  <path d="M100,125 L92,140 Q100,155 108,140 Z" fill="none" stroke="url(#gt)" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="100" cy="135" r="4" fill="url(#gt)"/>
+  <!-- Mountains / landscape -->
+  <polyline points="45,155 65,135 80,145 100,125 120,145 135,135 155,155" fill="none" stroke="url(#gt)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
