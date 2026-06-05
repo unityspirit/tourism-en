@@ -467,3 +467,9 @@ p, h1, h2, h3, h4, span:not(.gradient-text):not(.logo-accent):not(.stat-number):
 .collection-overlay h3 { line-height: 1.2; }
 
 
+
+
+/* Mobile contact card fix */
+@media(max-width:768px){
+  .contact-info-card { max-width: 100%; width: 100%; box-sizing: border-box; }
+}
